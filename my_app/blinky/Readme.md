@@ -9,3 +9,6 @@ set ZEPHYR_BASE=C:\Users\stoeffi\git\test-zephyr\zephyrproject\zephyr
 
 # Export a Zephyr CMake package for each Zephyr version
 west zephyr-export
+
+# build
+west -v build -p auto -b nucleo_f429zi .
